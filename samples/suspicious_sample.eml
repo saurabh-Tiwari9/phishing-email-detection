@@ -1,0 +1,15 @@
+From: IT Support <helpdesk@company-security-example.invalid>
+To: employee@example.invalid
+Reply-To: account-verify@attacker-example.invalid
+Return-Path: <bounce@mailer-example.invalid>
+Subject: URGENT: Verify your account immediately
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Authentication-Results: mx.example.invalid; spf=fail; dkim=fail; dmarc=fail
+
+<html><body>
+<p>Dear employee,</p>
+<p>Unusual activity detected. Your account suspended unless you verify your account now.</p>
+<p><a href="http://192.0.2.55/login">https://company.example.invalid/secure-login</a></p>
+<p>Click here to confirm your identity.</p>
+</body></html>
